@@ -1,4 +1,4 @@
-import { Customer } from './costumer'
+import { Customer } from './customer'
 import { Room } from './room'
 
 export class Reservation {

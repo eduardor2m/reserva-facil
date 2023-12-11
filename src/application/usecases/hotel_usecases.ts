@@ -1,7 +1,7 @@
 /* eslint-disable no-useless-constructor */
 import { Hotel } from '../../domain/models/hotel'
 import { HotelRepository } from '../../domain/repositories/hotel_repository'
-import { HotelBoundary } from '../interfaces/hotel_use_case_boundaries'
+import { HotelBoundary } from '../interfaces/hotel_usecases_boundaries'
 
 export class HotelUseCases implements HotelBoundary {
   constructor(private hotelRepository: HotelRepository) {}
